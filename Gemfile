@@ -1,7 +1,11 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
+
 gem 'pry-rails'
+
+gem 'devise'
+
 
 ruby '2.6.5'
 
